@@ -1,8 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
-     ":semanticCommitTypeAll(chore)"
+    "config:recommended",
+    ":semanticCommits",
+    ":semanticCommitTypeAll(chore)"
   ],
   "baseBranches": ["next"],
   "labels": ["dependencies"],
